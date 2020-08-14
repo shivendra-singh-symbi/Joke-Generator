@@ -1,0 +1,48 @@
+<%- include("partials/header") %>
+
+
+      <div class="container-fluid">
+
+  <!--        Section 1 Top Navbar ###############ss######################################################-->
+          <div class="row">
+                  <div class="col-sm-12 topnav">
+                    <a href="/">
+                      <ul class="topnav-items">
+                          <li><img src="css/1.png" width="50px" height="50px" style="border-radius:20%;"></li>
+                          <li class="topnav-title">Joke Generator</li>
+                      </ul>
+                    </a>
+
+                  </div>
+          </div>
+          <div class="header_jokes animate__animated animate__shakeY">
+          <h1>Type : <%= typeofJoke %></h1>
+          </div>
+
+          <div class="row">
+          <div class="col-sm-12 col-md-4">
+              <div class="joke_box">
+                <h1> <%= setupofJoke %> </h1>
+                <br>
+                <h2 class="animate__animated animate__slideInLeft">=> <%= punchlineofJoke %> </h2>
+              </div>
+          </div><div class="col-sm-12 col-md-4">
+              <div class="joke_box_click">
+                <h1 class="clicknewjoke"><a href="<%= typeofJoke %>">Click for a new one !!</a></h1>
+              </div>
+          </div>
+
+          </div>
+          </div>
+
+          <div class="col-sm-12 parent-footer_randompage">
+            <div class="item1-footer">
+              <h2 class="footer-header">© Joke Generator </h2>
+            </div>
+          </div>
+          </div>
+
+
+          </body>
+
+          </html>

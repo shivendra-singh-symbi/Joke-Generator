@@ -1,0 +1,138 @@
+body
+{
+    background-image: url(https://i.pinimg.com/originals/37/c1/61/37c16167473129ab016a5e04b5d0e004.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Sniglet', cursive;
+}
+
+.topnav
+{
+   background: #00004d;
+   opacity: 0.7;
+   padding: 0;
+}
+
+ul.topnav-items li {
+    display: inline-block;
+    float: left;
+    line-height: 1.5;
+    padding-right: 10px;
+}
+li.topnav-title
+{
+    font-size: 40px;
+    color: white;
+}
+
+.jumbotron
+{
+    text-align: center;
+    background-color: #00ffcc;
+    opacity: 0.7;
+    color: black;
+    padding: 20px;
+}
+div .parent
+{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+
+}
+
+.item1
+{
+    text-align: center;
+
+}
+.btn
+{
+    margin-top:  5px;
+    margin-bottom: 50px;
+    width: 60%;
+}
+h1.header
+{
+    text-align: center;
+    color: white;
+    width: 20%;
+    margin: auto;
+    font-size: 50px;
+    background-color:#00004d;
+    opacity: 0.7;
+}
+.typeofimage {
+  padding: 10px;
+  transition: transform .2s; /* Animation */
+}
+
+.typeofimage:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.parent-footer
+{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.item1-footer
+{
+    text-align: center;
+}
+h2.footer-header
+{
+    padding-top: 10px;
+    color: #cbeaed;
+    position: relative;
+    left: 610px;
+}
+
+
+/*Joking Page style*/
+.header_jokes
+{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.joke_box
+{
+    color: black;
+    width: 400px;
+    height: 420px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+}
+
+.joke_box_click a{
+  color: black;
+  width: 250px;
+  height: 60px;
+  text-decoration: none;
+  border: 2px solid black;
+  background-color: #6f4a8e;
+  padding: 10px 20px;
+  font-size: 20px;
+  position: relative;
+  top: 280px;
+}
+
+.clicknewjoke a:hover{
+  color: #709fb0;
+}
+
+.parent-footer_randompage{
+  position: absolute;
+  bottom: 0;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
